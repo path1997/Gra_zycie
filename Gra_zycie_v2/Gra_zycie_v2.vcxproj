@@ -139,6 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Gra.cpp" />
+    <ClCompile Include="GraTxt.cpp" />
+    <ClCompile Include="Komorka.cpp" />
+    <ClCompile Include="Silnik.cpp" />
+    <ClCompile Include="Źródło.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gra.h" />
+    <ClInclude Include="GraTxt.h" />
+    <ClInclude Include="Komorka.h" />
+    <ClInclude Include="Silnik.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
