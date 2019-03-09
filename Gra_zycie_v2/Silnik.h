@@ -4,6 +4,8 @@
 #include"Komorka.h"
 #include<fstream>
 #include<iostream>
+#include<Windows.h>
+
 class Silnik
 {
 protected:
