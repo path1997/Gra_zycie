@@ -8,9 +8,10 @@ private:
 	bool stan;
 public:
 	Komorka();
-	~Komorka();
+	virtual ~Komorka();
 	friend class Silnik;
 	friend class GraTxt;
+	friend class Gra;
 };
 
 
