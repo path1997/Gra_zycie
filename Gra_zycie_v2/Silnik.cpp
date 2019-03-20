@@ -123,9 +123,9 @@ void Silnik::init(const char * fname)
 	
 }
 
-void Silnik::ustawWartosc(int i, int j, bool wartosc)
+void Silnik::ustawWartosc(int i, int j)
 {
 	if (nw >= i && nk >= j) {
-		tablica[i][j].stan = wartosc;
+		tablica[i][j].stan = 1;
 	}
 }

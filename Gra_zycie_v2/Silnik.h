@@ -21,7 +21,7 @@ private:
 	int liczZywych(int i, int j);
 public:
 	void init(const char *fname);
-	void ustawWartosc(int i, int j, bool wartosc);
+	void ustawWartosc(int i, int j);
 	
 };
 
